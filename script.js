@@ -11,12 +11,6 @@ let myLibrary=[
         pages: 274,
         read: true,
     },
-    {
-        title:'Harry Potter',
-        author: 'JK Rowling',
-        pages: 274,
-        read: true,
-    },
 ];
 
 let ctn = document.querySelector('#libCtn');
