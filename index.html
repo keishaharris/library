@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <button class="addBtn" id="addBtn"> Add to Library </button></button>
+    
+    <div class="libCtn" ><h1>Library Collection</h1></div>
+
+    <div class="collectionCtn" id="collectionCtn"></div>
+
+    <div class="container" id="libCtn">
+      
+        <form id="book-form" class="book-form">
+            <span class="close" id="close">&times;</span>
+            <h2>Add a New Book </h2>
+            <p><legend>Title</legend>
+            <input required type="text" id="title"/></p>
+            <p><legend>Author</legend>
+            <input required type="text" id="author"/></p>
+            <p><legend>Pages</legend>
+            <input required type="text" id="pages"/></p>
+            <button type="submit" class="submitBtn" id="submitBtn">submit</button>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
