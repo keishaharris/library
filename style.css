@@ -99,6 +99,10 @@ input{
     font-weight: light;
 }
 
+.cardPages{
+    margin: 5px;
+}
+
 .removeBtn{
     width:100px;
     padding: 8px;
