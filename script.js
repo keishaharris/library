@@ -29,11 +29,13 @@ closeBtn.addEventListener('click', function(){
     ctn.style.display='none';
 })
 
-function Book(title, author, pages, read){
+class Book {
+    constructor(title, author, pages, read) {
     this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = read;
+    }
 }
 
 function addBookToLibrary(e) {
@@ -86,12 +88,6 @@ function render(){
 
         const readBtn = document.createElement('button');
         
-
-        // const notReadBtn = document.createElement('button');
-        // notReadBtn.setAttribute('class', 'notReadBtn');
-        // notReadBtn.innerText = 'Read';
-
-
 
         div.appendChild(cardTitle);
         div.appendChild(cardAuthor);
